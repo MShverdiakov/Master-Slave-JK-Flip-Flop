@@ -13,3 +13,9 @@ created structural, behavioral and process form of MS JK FF trigger, custom NAND
 * generator.vhd -- custom input signal generator
 * observer.vhd -- entity that can detect different modes of trigger, eg toggle, set, reset, storage
 * stend.vhd -- stand for students convenience, that collect generator, observer and any trigger and test it (in this example i'm using trigger from MS_JK_FF.vhd) 
+
+
+also created different asserts for error tracking, for example:
+*control of forbidden sets of input signal values;
+* control of the values of the input signals that determine the storage mode of memory elements;
+* control of the set duration of the input information signal in relation to the sync signal
